@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Job Survey">
+        <title>Job Survey</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="survey-container">
+                <div class="animation">
+			<img src="./character 4.svg">
+                </div>
+                <div id="survey" class="survey">
+                    <div id="progress-bar">
+                        <div id="progress-made"></div>
+                    </div>
+                    <div class="question-container">
+                        <p id="question">Question... ?</p><div id="cursor"></div><span id="cursor"></span>
+                    </div>
+                    <div class="answers-container">
+                        <div class="survey-answer">
+                            <input type="radio" class="answer-input" id="a-ans" name="question-1" value="a"> 
+                            <label class="answer-label" for="a-ans">A</label>
+                        </div>
+                        <div class="survey-answer">
+                            <input type="radio" class="answer-input" id="b-ans" name="question-1" value="b"> 
+                            <label class="answer-label" for="b-ans">B</label>
+                        </div>
+                        <div class="survey-answer">
+                            <input type="radio" class="answer-input" id="c-ans" name="question-1" value="c"> 
+                            <label class="answer-label" for="c-ans">C</label>
+                        </div>
+                        <div class="survey-answer">
+                            <input type="radio" class="answer-input" id="d-ans" name="question-1" value="d"> 
+                            <label class="answer-label" for="d-ans">D</label>
+                        </div>
+                    </div>
+                    <div class="buttons-container">
+                        <div class="btn-move noselect disabled" id="btn-left"><</div>
+                        <div class="btn-move noselect disabled" id="btn-right">></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
